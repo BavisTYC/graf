@@ -32,10 +32,59 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   .top-content .carousel {
     height: 100vh;
     padding: 30px;
+  }
+  graf img {
+    height: 80%;
+  }
+  .btn-b {
+    margin-top: 0px;
+    background-color: #121621;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 11px 14px 3px #000000;
+    -webkit-box-shadow: 10px 11px 14px 3px #000000;
+    -moz-box-shadow: 10px 11px 14px 3px #000000;
+    -o-box-shadow: 10px 11px 14px 3px #000000;
+  }
+  .btn-bs {
+    margin-top: 5px;
+    background-color: #121621;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    width: 100%;
+    display: block;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-shadow: 7px 8px 10px 2px #000000;
+    -webkit-box-shadow: 7px 8px 10px 2px #000000;
+    -moz-box-shadow: 7px 8px 10px 2px #000000;
+    -o-box-shadow: 7px 8px 10px 2px #000000;
+  }
+  .btn-color {
+    width: 30px;
+    height: 30px;
+    margin: 10px 6px 10px 0px;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 6px 6px 1px #000000;
+    -webkit-box-shadow: 5px 6px 6px 1px #000000;
+    -moz-box-shadow: 5px 6px 6px 1px #000000;
+    -o-box-shadow: 5px 6px 6px 1px #000000;
+  }
+  .btn-color:focus {
+    border: 5px solid #fff;
+    box-shadow: 10px 11px 14px 3px #000000;
+    -webkit-box-shadow: 10px 11px 14px 3px #000000;
+    -moz-box-shadow: 10px 11px 14px 3px #000000;
+    -o-box-shadow: 10px 11px 14px 3px #000000;
   }
   .navbar.navbar-no-bg {
     background: #444;

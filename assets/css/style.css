@@ -156,6 +156,9 @@ img {
   z-index: 999;
   height: 100%;
 }
+.container {
+  height: 100%;
+}
 .graf2 {
   position: relative;
   z-index: 99;
@@ -206,7 +209,7 @@ img {
 .btn-color {
   width: 60px;
   height: 60px;
-  margin: 20px 10px;
+  margin: 20px 20px;
   color: #fff;
   font-size: 2rem;
   border-radius: 10px;
