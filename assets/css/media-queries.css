@@ -136,18 +136,12 @@
     padding-top: 10px;
   }
 }
-
+.top-content .carousel-item {
+  max-height: 300px;
+  position: relative;
+  top: 30%;
+}
 @media (max-width: 575px) {
-  .top-content .carousel-item {
-    max-height: 300px;
-    position: relative;
-    top: 30%;
-  }
-  .btn-bottom {
-    position: relative;
-    bottom: -70%;
-  }
-
   .top-content .carousel-caption {
     bottom: 0;
     padding-bottom: 20px;
