@@ -140,7 +140,8 @@
 @media (max-width: 575px) {
   .top-content .carousel-item {
     max-height: 300px;
-    top: 20%;
+    position: relative;
+    top: 30%;
   }
 
   .top-content .carousel-caption {
