@@ -40,6 +40,9 @@
   graf img {
     height: 80%;
   }
+  .carousel-item {
+    margin-right: 0;
+  }
   .btn-b {
     margin-top: 0px;
     background-color: #121621;
