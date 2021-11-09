@@ -23,10 +23,11 @@ body::-webkit-scrollbar {
   padding: 0px;
 }
 .btncss {
-  position: relative;
+  position: absolute;
   z-index: 999;
   text-align: center;
   top: 15%;
+  left: 30%;
 }
 .slide {
   list-style: none;
@@ -38,7 +39,7 @@ body::-webkit-scrollbar {
   height: 100%;
   text-align: center;
   color: #fff;
-  top: -5%;
+  top: 0%;
 
   visibility: hidden;
 }
@@ -94,4 +95,62 @@ body::-webkit-scrollbar {
   font-size: 3.8rem;
   padding: 1.2rem 3rem;
   border-radius: 2rem;
+}
+@media (min-width: 720px) and (max-width: 991px) {
+  #slides {
+    top: -10%;
+  }
+  .btn {
+    background-color: #69afe2;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+  }
+  .btncss {
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    top: 5%;
+    left: 40%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #slides {
+    top: 0%;
+  }
+  .btn {
+    background-color: #69afe2;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+  }
+  .btncss {
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    top: 15%;
+    left: 40%;
+  }
+}
+@media (min-width: 1201px) {
+  #slides {
+    top: 0%;
+  }
+  .btn {
+    background-color: #69afe2;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+  }
+  .btncss {
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    top: 20%;
+    left: 45%;
+  }
 }
