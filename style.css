@@ -90,7 +90,7 @@ body::-webkit-scrollbar {
 .btn {
   background-color: #69afe2;
   color: #fff;
-  font-size: 2rem;
-  padding: 0.5rem 2rem;
-  border-radius: 20px;
+  font-size: 3.8rem;
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
 }
