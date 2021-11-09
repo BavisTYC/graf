@@ -38,6 +38,7 @@ body::-webkit-scrollbar {
   height: 100%;
   text-align: center;
   color: #fff;
+  top: -5%;
 
   visibility: hidden;
 }
@@ -82,7 +83,7 @@ body::-webkit-scrollbar {
 
 #credit {
   position: fixed;
-  top: 20%;
+  top: 10%;
   margin: 0;
   color: #eaeaea;
   font-family: "Courier New", Courier, monospace;
