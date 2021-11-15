@@ -115,7 +115,7 @@
   }
   .btn-right {
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   img.btn-color {
@@ -139,7 +139,12 @@
     margin-right: 0;
   }
   .graffiti-item {
+      position: relative;
     text-align: left;
+  }
+  .graf{
+      position: relative;
+      top: 0%;
   }
   .btn-b {
     margin-top: 0px;
@@ -148,7 +153,7 @@
     padding: 0.5rem 0.5rem;
   }
   .w100{
-      width: 80%;!important
+      width: 100%;!important
   }
   img.btn-b {
     width: 40%;
@@ -246,6 +251,15 @@
     bottom: 0;
     padding-bottom: 20px;
   }
+  .graffiti-item{
+      text-align: center;
+  }
+  .txtleft{
+      text-align: center;
+  }
+  .btn-right{
+      text-align: center;
+  }
   .top-content .carousel-item {
     top: 15%;
   }
@@ -256,6 +270,9 @@
   .top-content h2,
   .top-content h3 {
     font-size: 18px;
+  }
+  .btn-a img {
+    width: 50%;
   }
   img.btn-c {
     width: 40%;
@@ -275,7 +292,7 @@
     width: 50%;
   }
   img.btn-b2 {
-    width: 30%;
+    width: 40%;
   }
   .btn-bs {
     margin-top: 5px;
@@ -305,10 +322,10 @@
   }
   img.btn-color {
     display: inline;
-    width: 40px;
-    height: 40px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
 
