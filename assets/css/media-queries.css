@@ -139,7 +139,7 @@
     margin-right: 0;
   }
   .graffiti-item {
-    text-align: center;
+    text-align: left;
   }
   .btn-b {
     margin-top: 0px;
@@ -151,13 +151,13 @@
       width: 80%;!important
   }
   img.btn-b {
-    width: 30%;
-  }
-  img.btn-b2 {
     width: 40%;
   }
+  img.btn-b2 {
+    width: 50%;
+  }
   .txtleft {
-    text-align: center;
+    text-align: left;
   }
 
   .btn-color {
@@ -180,8 +180,8 @@
 
   img.btn-color {
     display: inline;
-    width: 42px;
-    height: 42px;
+    width: 50px;
+    height: 50px;
     margin-bottom: 0px;
     margin-top: 0px;
   }
@@ -238,7 +238,7 @@
 .top-content .carousel-item {
   max-height: 300px;
   position: relative;
-  top: 0%;
+  top: -30%;
 }
 
 @media (max-width: 575px) {
